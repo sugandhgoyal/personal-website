@@ -1,0 +1,180 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #FFFAF0;
+}
+
+nav {
+    height: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 380px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color:#E9967A;
+}
+
+nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+nav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+h1{ color: black;
+    font-size: 50px; }
+
+*{ box-sizing: border-box; }
+#home{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border-style: solid;
+    border-color:#FF7F50;
+    font-size: 48px;
+    color: black;
+    margin: -10px;
+
+}
+#home:hover{ background-color: #FF7F50; }
+#education{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border-style: solid;
+    border-color:#FF7F50;
+    margin: -10px;
+    font-size: 48px;
+    color: black;
+}
+#education:hover{ background-color: #FF7F50; }
+#trainings{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border-style: solid;
+    border-color:#FF7F50;
+    font-size: 48px;
+    color: black;
+    margin: -10px;
+}
+#trainings:hover{ background-color: #FF7F50; }
+#skills{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border-style: solid;
+    border-color: #FF7F50;
+    font-size: 48px;
+    color: black;
+    margin: -10px;
+}
+#skills:hover{ background-color: #FF7F50; }
+#projects{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border-style: solid;
+    border-color:#FF7F50;
+    font-size: 48px;
+    color: black;
+    margin: -10px;
+}
+#projects:hover{ background-color: #FF7F50; }
+
+#profile{ width: 600px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    border-style: solid;
+    border-color: #FF7F50;
+    font-size: 48px;
+    color: black;
+    margin: -10px; }
+#profile:hover{ background-color: #FF7F50; }
+a:hover{transform: scale(1.1);}
+
+section{text-align:center;}
+.endmenu{text-align:center;}
+
+header{ text-align:center;}
+
+ #spane{ text-indent:30%;
+         font-size:200%;
+		 cursor:pointer;
+                }      
+  
+         
+ .h-divider{
+		
+		margin:0 auto;
+		height:1px;
+		width:50%;
+		border-top:1px solid gray;
+			}
+			
+	p{ font-size: 150%;}
+   
+a{text-decoration: none;} 
+a:visited{ color: black; }
+a:active{ color: black; }
+a:link{ color: black; }
+
+#mid{  margin:0 auto;
+           text-align:center;
+           width: 50%;
+    	   height: 17px;
+    	   background-color:#E9967A; 
+    	   border-radius: 20px;
+         
+          } 
+
+       		 
+@media screen and (max-height: 450px) {
+  nav {padding-top: 15px;}
+  nav a {font-size: 18px;}
+}
+
+@media screen and {max-width: 980px){
+ 
+ nav a{ font-size:15px;}
+	 nav .closebtn { font-size:26px;}
+	 h1{ font-size30px;}
+	 
+	 #home,#education,#skills,#profile{ font-size:30px;
+	                                    line-height:60px;}
+	
+	 #spane{ font-size:150%;}
+	 
+	 p{ font-size: 100%;}
+	 
+}

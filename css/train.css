@@ -1,0 +1,181 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #FFFAF0;
+}
+
+nav {
+    height: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 380px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color:#E9967A;
+    font-family: "Rubik", sans-serif;
+}
+
+nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+nav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  nav {padding-top: 15px;}
+  nav a {font-size: 18px;}
+}
+h1{ color: black;
+    font-size: 50px; }
+
+*{ box-sizing: border-box; }
+#home{
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  border-style: solid;
+  border-color:#FF7F50;
+  font-size: 48px;
+  color: black;
+  margin: -10px;
+
+}
+#home:hover{ background-color: #FF7F50; }
+#education{
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  border-style: solid;
+  border-color:#FF7F50;
+  margin: -10px;
+  font-size: 48px;
+  color: black;
+}
+#education:hover{ background-color: #FF7F50; }
+#trainings{
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  border-style: solid;
+  border-color:#FF7F50;
+  font-size: 48px;
+  color: black;
+  margin: -10px;
+}
+#trainings:hover{ background-color: #FF7F50; }
+
+#projects{
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  border-style: solid;
+  border-color:#FF7F50;
+  font-size: 48px;
+  color: black;
+  margin: -10px;
+}
+#projects:hover{ background-color: #FF7F50; }
+#profile{
+  width: 600px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  border-style: solid;
+  border-color:#FF7F50;
+  font-size: 48px;
+  color: black;
+  margin: -10px;
+        }
+		
+#profile:hover{ background-color: #FF7F50; }
+a:hover{transform: scale(1.1);}
+
+header{ text-align:center;}
+#spane{ margin-left:30%;
+        font-size:30px;
+		cursor:pointer;
+		
+      }
+
+section {text-align:center;}
+
+.w3-card-12{ width:45%;
+              text-align:center;
+			  margin:0 auto;}
+			  
+.w3-card-12:hover{transform: scale(1.01);}
+#mid{  margin:0 auto;
+           text-align:center;
+           width: 50%;
+    	   height: 17px;
+    	   background-color:#E9967A; 
+    	   border-radius: 20px;
+		   
+         
+          } 
+
+
+.endmenu{text-align:center;}
+.endmenu a{font-size: 30px;
+            text-decoration:none;}
+.h-divider{
+	 margin:0 auto;
+     height:1px;
+     width:47%;
+      border-top:1px solid gray; 
+	  
+             }
+
+@media screen and {max-width: 980px){
+	.endmenu{ font-size:15px;}
+}
+	
+          
+ 
+  #mid{  margin:0 auto;
+           text-align:center;
+           width: 50%;
+    	   height: 17px;
+    	   background-color:#E9967A; 
+    	   border-radius: 20px;
+         
+          }        
+
+.h-divider{ margin:-20px;
+		margin-left: 350px;
+		height:1px;
+		width:50%;
+		border-top:1px solid gray;
+}       
+    
+a{text-decoration: none;}
+a:link{color: black;}
+a:visited{color: black;}
+a:active{color: black;}

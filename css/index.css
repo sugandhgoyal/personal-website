@@ -1,0 +1,180 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #FFFAF0;
+	line-height:33px;
+}
+
+nav {
+    height: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 380px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    background-color:#E9967A;
+}
+
+nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+nav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{ color: black;
+    font-size: 50px; }
+
+*{ box-sizing: border-box; }
+#home{
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	border-style: solid;
+	border-color:#FF7F50;
+	font-size: 48px;
+	color: black;
+	margin: -10px;
+
+}
+#home:hover{ background-color: #FF7F50; }
+#education{
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	border-style: solid;
+	border-color:#FF7F50;
+	margin: -10px;
+	font-size: 48px;
+	color: black;
+}
+#education:hover{ background-color: #FF7F50; }
+#trainings{
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	border-style: solid;
+	border-color:#FF7F50;
+	font-size: 48px;
+	color: black;
+	margin: -10px;
+}
+#trainings:hover{ background-color: #FF7F50; }
+#skills{
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	border-style: solid;
+	border-color: #FF7F50;
+	font-size: 48px;
+	color: black;
+	margin: -10px;
+}
+#skills:hover{ background-color: #FF7F50; }
+#projects{
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	border-style: solid;
+	border-color:#FF7F50;
+	font-size: 48px;
+	color: black;
+	margin: -10px;
+}
+#projects:hover{ background-color: #FF7F50; }
+
+#works{ width: 600px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	border-style: solid;
+	border-color: #FF7F50;
+	font-size: 48px;
+	color: black;
+	margin: -10px; }
+#works:hover{ background-color: #FF7F50; }
+a:hover{transform: scale(1.1);}
+
+header{text-align:center;}
+section{ text-align:center;}
+
+
+  #spane { margin-left:20%;
+
+          font-size:30px;
+		   cursor:pointer;
+		 }
+  #name{ margin-right:60%;}
+
+    #pic{ 
+         border-radius: 10%; 
+         border:solid 8px grey;
+         z-index: -1;
+        }
+    
+    #mid1{ color: black;
+         font-size: 40px;
+		 line-height:40px;
+          }     
+    .btn{   width: 130px;
+          height: 35px; 
+          font-size: 20px;
+          text-decoration: none;}     
+    
+    #mid2{ margin:0 auto;
+           text-align:center;
+           width: 50%;
+    	   height: 17px;
+    	   background-color:#E9967A; 
+    	   border-radius: 20px;
+         
+          }    
+   	                 
+   .h-divider{ height:1px;
+               width:50%;
+			   margin:0 auto;
+               text-align:center;
+               border-top:1px solid gray;
+               }       
+    #some{color: black;}
+  
+    #l1{font-size: 30px;}
+ 
+   .lst p{color: black;}
+   .lst p:hover{ text-decoration: none;
+                 color:#E9967A;}
+    a:link{color: black;}
+    a:visited{color: black;}
+    a:active{color: black;}
